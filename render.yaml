@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: attendance-management-system
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -c gunicorn.conf.py app:app
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: SECRET_KEY
+        generateValue: true
+      - key: LIVENESS_CHECK_ENABLED
+        value: "True"
+      - key: FACE_MATCH_THRESHOLD
+        value: "0.55"

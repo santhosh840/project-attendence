@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: attendance_mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: attendance_db
+      MYSQL_USER: attendance_user
+      MYSQL_PASSWORD: userpassword
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  web:
+    build: .
+    container_name: attendance_flask_app
+    restart: always
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+      - SECRET_KEY=prod-super-secret-key-123456
+      - DB_TYPE=mysql
+      - DATABASE_URL=mysql+pymysql://attendance_user:userpassword@db:3306/attendance_db
+    depends_on:
+      - db
+    volumes:
+      - ./static/uploads:/app/static/uploads
+      - ./static/encodings:/app/static/encodings
+
+volumes:
+  mysql_data:

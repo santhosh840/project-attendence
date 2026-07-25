@@ -1,0 +1,586 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.110:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 111-249-662
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.110:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 111-249-662
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.110:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 111-249-662
+127.0.0.1 - - [24/Jul/2026 22:05:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:05:53] "GET /static/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:05:53] "GET /static/js/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:05:53] "GET /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:05:53] "GET /api/fertilizers HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:05:53] "GET /api/crop-guide/Tomato?variety=arka_rakshak&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:05:53] "GET /api/dashboard/date-guidance?date=2026-07-24&crop=Tomato&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:05:53] "GET /api/logbook HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:05:53] "GET /api/experts?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:05:54] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Jul/2026 22:05:58] "GET /api/dealers?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:18] "GET /static/css/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [24/Jul/2026 22:06:18] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [24/Jul/2026 22:06:18] "GET /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:18] "GET /api/dashboard/date-guidance?date=2026-07-24&crop=Tomato&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:19] "GET /api/crop-guide/Tomato?variety=arka_rakshak&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:19] "GET /api/fertilizers HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:19] "GET /api/logbook HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:19] "GET /api/experts?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:19] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Jul/2026 22:06:23] "GET /api/dealers?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:34] "GET /static/css/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [24/Jul/2026 22:06:34] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [24/Jul/2026 22:06:34] "GET /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:34] "GET /api/dashboard/date-guidance?date=2026-07-24&crop=Tomato&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:34] "GET /api/crop-guide/Tomato?variety=arka_rakshak&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:34] "GET /api/fertilizers HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:34] "GET /api/logbook HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:34] "GET /api/experts?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:35] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Jul/2026 22:06:42] "GET /api/dealers?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:52] "GET /static/css/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [24/Jul/2026 22:06:52] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [24/Jul/2026 22:06:52] "GET /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:53] "GET /api/crop-guide/Tomato?variety=arka_rakshak&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:53] "GET /api/dashboard/date-guidance?date=2026-07-24&crop=Tomato&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:53] "GET /api/fertilizers HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:53] "GET /api/logbook HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:53] "GET /api/experts?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:06:53] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Jul/2026 22:07:00] "GET /api/dealers?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:07:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:07:10] "GET /static/css/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [24/Jul/2026 22:07:10] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [24/Jul/2026 22:07:11] "GET /api/dashboard/date-guidance?date=2026-07-24&crop=Tomato&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:07:11] "GET /api/crop-guide/Tomato?variety=arka_rakshak&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:07:11] "GET /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:07:11] "GET /api/fertilizers HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:07:11] "GET /api/experts?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:07:11] "GET /api/logbook HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:07:13] "GET /api/experts?lat=13.174223&lng=77.531975 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:07:13] "GET /api/dealers?lat=13.174223&lng=77.531975 HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.110:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 111-249-662
+127.0.0.1 - - [24/Jul/2026 22:09:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:09:26] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [24/Jul/2026 22:09:26] "GET /static/css/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [24/Jul/2026 22:09:26] "GET /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:09:26] "GET /api/fertilizers HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:09:26] "GET /api/dashboard/date-guidance?date=2026-07-24&crop=Tomato&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:09:26] "GET /api/crop-guide/Tomato?variety=arka_rakshak&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:09:26] "GET /api/experts?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:09:26] "GET /api/logbook HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:09:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Jul/2026 22:09:29] "GET /api/dealers?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:09:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:09:43] "GET /static/css/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [24/Jul/2026 22:09:43] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [24/Jul/2026 22:09:43] "GET /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:09:43] "GET /api/dashboard/date-guidance?date=2026-07-24&crop=Tomato&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:09:43] "GET /api/crop-guide/Tomato?variety=arka_rakshak&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:09:43] "GET /api/fertilizers HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:09:43] "GET /api/logbook HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:09:43] "GET /api/experts?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 22:09:43] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Jul/2026 22:09:51] "GET /api/dealers?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.110:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 111-249-662
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.110:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 774-610-929
+ * Detected change in 'C:\\Users\\ADMIN\\Documents\\project attendence\\create_shortcut.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 774-610-929
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.110:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 774-610-929
+ * Detected change in 'C:\\Users\\ADMIN\\Documents\\project attendence\\create_shortcut.py', reloading
+ * Detected change in 'C:\\Users\\ADMIN\\Documents\\project attendence\\create_shortcut.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 774-610-929
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.110:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 774-610-929
+ * Detected change in 'C:\\Users\\ADMIN\\Documents\\project attendence\\config.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 774-610-929
+ * Detected change in 'C:\\Users\\ADMIN\\Documents\\project attendence\\app.py', reloading
+ * Detected change in 'C:\\Users\\ADMIN\\Documents\\project attendence\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Documents\project attendence\app.py", line 12, in <module>
+    from models import db, User, Student, Attendance, SystemLog
+ImportError: cannot import name 'User' from 'models' (C:\Users\ADMIN\Documents\project attendence\models.py)
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Documents\project attendence\app.py", line 12, in <module>
+    from models import db, User, Student, Attendance, SystemLog
+ImportError: cannot import name 'User' from 'models' (C:\Users\ADMIN\Documents\project attendence\models.py)
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Documents\project attendence\app.py", line 12, in <module>
+    from models import db, User, Student, Attendance, SystemLog
+ImportError: cannot import name 'User' from 'models' (C:\Users\ADMIN\Documents\project attendence\models.py)
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Documents\project attendence\app.py", line 12, in <module>
+    from models import db, User, Student, Attendance, SystemLog
+ImportError: cannot import name 'User' from 'models' (C:\Users\ADMIN\Documents\project attendence\models.py)
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Documents\project attendence\app.py", line 12, in <module>
+    from models import db, User, Student, Attendance, SystemLog
+ImportError: cannot import name 'User' from 'models' (C:\Users\ADMIN\Documents\project attendence\models.py)
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Documents\project attendence\app.py", line 12, in <module>
+    from models import db, User, Student, Attendance, SystemLog
+ImportError: cannot import name 'User' from 'models' (C:\Users\ADMIN\Documents\project attendence\models.py)
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Documents\project attendence\app.py", line 12, in <module>
+    from models import db, User, Student, Attendance, SystemLog
+ImportError: cannot import name 'User' from 'models' (C:\Users\ADMIN\Documents\project attendence\models.py)
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Documents\project attendence\app.py", line 12, in <module>
+    from models import db, User, Student, Attendance, SystemLog
+ImportError: cannot import name 'User' from 'models' (C:\Users\ADMIN\Documents\project attendence\models.py)
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Documents\project attendence\app.py", line 12, in <module>
+    from models import db, User, Student, Attendance, SystemLog
+ImportError: cannot import name 'User' from 'models' (C:\Users\ADMIN\Documents\project attendence\models.py)
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Documents\project attendence\app.py", line 12, in <module>
+    from models import db, User, Student, Attendance, SystemLog
+ImportError: cannot import name 'User' from 'models' (C:\Users\ADMIN\Documents\project attendence\models.py)
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Documents\project attendence\app.py", line 12, in <module>
+    from models import db, User, Student, Attendance, SystemLog
+ImportError: cannot import name 'User' from 'models' (C:\Users\ADMIN\Documents\project attendence\models.py)
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Documents\project attendence\app.py", line 12, in <module>
+    from models import db, User, Student, Attendance, SystemLog
+ImportError: cannot import name 'User' from 'models' (C:\Users\ADMIN\Documents\project attendence\models.py)
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Documents\project attendence\app.py", line 12, in <module>
+    from models import db, User, Student, Attendance, SystemLog
+ImportError: cannot import name 'User' from 'models' (C:\Users\ADMIN\Documents\project attendence\models.py)
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Documents\project attendence\app.py", line 12, in <module>
+    from models import db, User, Student, Attendance, SystemLog
+ImportError: cannot import name 'User' from 'models' (C:\Users\ADMIN\Documents\project attendence\models.py)
+face_recognition library not found. Falling back to OpenCV AI lighting-invariant face feature engine.
+2026-07-24 22:30:25,263 [INFO] attendance_app: Loaded 1 active face encodings into memory cache.
+2026-07-24 22:30:25,266 [INFO] attendance_app: Starting Student Facial Attendance Server on http://0.0.0.0:5005
+ * Serving Flask app 'app'
+ * Debug mode: on
+2026-07-24 22:30:25,312 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.110:5005
+2026-07-24 22:30:25,312 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-07-24 22:30:25,333 [INFO] werkzeug:  * Restarting with watchdog (windowsapi)
+face_recognition library not found. Falling back to OpenCV AI lighting-invariant face feature engine.
+2026-07-24 22:30:26,947 [INFO] attendance_app: Loaded 1 active face encodings into memory cache.
+2026-07-24 22:30:26,947 [INFO] attendance_app: Starting Student Facial Attendance Server on http://0.0.0.0:5005
+2026-07-24 22:30:26,964 [WARNING] werkzeug:  * Debugger is active!
+2026-07-24 22:30:26,964 [INFO] werkzeug:  * Debugger PIN: 774-610-929
+2026-07-24 22:31:02,808 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:02] "GET / HTTP/1.1" 200 -
+2026-07-24 22:31:02,905 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:02] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-07-24 22:31:02,977 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:02] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-07-24 22:31:03,151 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:03] "GET /static/js/camera.js HTTP/1.1" 200 -
+2026-07-24 22:31:03,477 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:03] "GET /api/attendance?search=&department=&status= HTTP/1.1" 200 -
+2026-07-24 22:31:03,482 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:03] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2026-07-24 22:31:03,754 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:03] "GET / HTTP/1.1" 200 -
+2026-07-24 22:31:19,691 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:19] "GET / HTTP/1.1" 200 -
+2026-07-24 22:31:20,019 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-24 22:31:20,019 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-07-24 22:31:20,023 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:20] "[36mGET /static/js/camera.js HTTP/1.1[0m" 304 -
+2026-07-24 22:31:20,272 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:20] "GET /api/attendance?search=&department=&status= HTTP/1.1" 200 -
+2026-07-24 22:31:20,413 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:20] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2026-07-24 22:31:20,473 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:20] "GET / HTTP/1.1" 200 -
+2026-07-24 22:31:21,234 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:21] "GET / HTTP/1.1" 200 -
+2026-07-24 22:31:21,542 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-24 22:31:21,565 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-07-24 22:31:21,565 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:21] "[36mGET /static/js/camera.js HTTP/1.1[0m" 304 -
+2026-07-24 22:31:21,939 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:21] "GET /api/attendance?search=&department=&status= HTTP/1.1" 200 -
+2026-07-24 22:31:21,972 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:21] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2026-07-24 22:31:22,197 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:31:22] "GET / HTTP/1.1" 200 -
+face_recognition library not found. Falling back to OpenCV AI lighting-invariant face feature engine.
+2026-07-24 22:31:31,064 [INFO] attendance_app: Loaded 1 active face encodings into memory cache.
+2026-07-24 22:31:31,064 [INFO] attendance_app: Starting Student Facial Attendance Server on http://0.0.0.0:5005
+ * Serving Flask app 'app'
+ * Debug mode: on
+2026-07-24 22:31:31,098 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.110:5005
+2026-07-24 22:31:31,098 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-07-24 22:31:31,098 [INFO] werkzeug:  * Restarting with watchdog (windowsapi)
+face_recognition library not found. Falling back to OpenCV AI lighting-invariant face feature engine.
+2026-07-24 22:31:32,203 [INFO] attendance_app: Loaded 1 active face encodings into memory cache.
+2026-07-24 22:31:32,203 [INFO] attendance_app: Starting Student Facial Attendance Server on http://0.0.0.0:5005
+2026-07-24 22:31:32,203 [WARNING] werkzeug:  * Debugger is active!
+2026-07-24 22:31:32,203 [INFO] werkzeug:  * Debugger PIN: 774-610-929
+face_recognition library not found. Falling back to OpenCV AI lighting-invariant face feature engine.
+2026-07-24 22:35:44,610 [INFO] attendance_app: Loaded 1 active face encodings into memory cache.
+2026-07-24 22:35:44,618 [INFO] attendance_app: Starting Student Facial Attendance Server on http://0.0.0.0:5005
+ * Serving Flask app 'app'
+ * Debug mode: on
+2026-07-24 22:35:44,693 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.110:5005
+2026-07-24 22:35:44,693 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-07-24 22:35:44,711 [INFO] werkzeug:  * Restarting with watchdog (windowsapi)
+face_recognition library not found. Falling back to OpenCV AI lighting-invariant face feature engine.
+2026-07-24 22:35:45,821 [INFO] attendance_app: Loaded 1 active face encodings into memory cache.
+2026-07-24 22:35:45,821 [INFO] attendance_app: Starting Student Facial Attendance Server on http://0.0.0.0:5005
+2026-07-24 22:35:45,837 [WARNING] werkzeug:  * Debugger is active!
+2026-07-24 22:35:45,837 [INFO] werkzeug:  * Debugger PIN: 411-269-286
+face_recognition library not found. Falling back to OpenCV AI lighting-invariant face feature engine.
+2026-07-24 22:35:59,380 [INFO] attendance_app: Loaded 1 active face encodings into memory cache.
+2026-07-24 22:35:59,380 [INFO] attendance_app: Starting Student Facial Attendance Server on http://0.0.0.0:5005
+ * Serving Flask app 'app'
+ * Debug mode: on
+2026-07-24 22:35:59,398 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.110:5005
+2026-07-24 22:35:59,398 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-07-24 22:35:59,398 [INFO] werkzeug:  * Restarting with watchdog (windowsapi)
+face_recognition library not found. Falling back to OpenCV AI lighting-invariant face feature engine.
+2026-07-24 22:36:00,450 [INFO] attendance_app: Loaded 1 active face encodings into memory cache.
+2026-07-24 22:36:00,450 [INFO] attendance_app: Starting Student Facial Attendance Server on http://0.0.0.0:5005
+2026-07-24 22:36:00,450 [WARNING] werkzeug:  * Debugger is active!
+2026-07-24 22:36:00,450 [INFO] werkzeug:  * Debugger PIN: 411-269-286
+2026-07-24 22:36:26,232 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:36:26] "GET / HTTP/1.1" 200 -
+2026-07-24 22:36:26,676 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:36:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-24 22:36:26,703 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:36:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-07-24 22:36:26,737 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:36:26] "[36mGET /static/js/camera.js HTTP/1.1[0m" 304 -
+2026-07-24 22:36:26,822 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:36:26] "GET /api/attendance?search=&department=&status= HTTP/1.1" 200 -
+2026-07-24 22:36:27,071 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:36:27] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2026-07-24 22:36:27,090 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:36:27] "GET / HTTP/1.1" 200 -
+2026-07-24 22:36:28,143 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:36:28] "GET / HTTP/1.1" 200 -
+2026-07-24 22:36:28,452 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:36:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-24 22:36:28,469 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:36:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-07-24 22:36:28,469 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:36:28] "[36mGET /static/js/camera.js HTTP/1.1[0m" 304 -
+2026-07-24 22:36:28,843 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:36:28] "GET /api/attendance?search=&department=&status= HTTP/1.1" 200 -
+2026-07-24 22:36:28,869 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:36:28] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2026-07-24 22:36:29,101 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:36:29] "GET / HTTP/1.1" 200 -
+face_recognition library not found. Falling back to OpenCV AI lighting-invariant face feature engine.
+2026-07-24 22:37:44,465 [INFO] attendance_app: Loaded 1 active face encodings into memory cache.
+2026-07-24 22:37:44,465 [INFO] attendance_app: Starting Student Facial Attendance Server on http://0.0.0.0:5005
+ * Serving Flask app 'app'
+ * Debug mode: on
+2026-07-24 22:37:44,478 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.110:5005
+2026-07-24 22:37:44,478 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-07-24 22:37:44,493 [INFO] werkzeug:  * Restarting with watchdog (windowsapi)
+face_recognition library not found. Falling back to OpenCV AI lighting-invariant face feature engine.
+2026-07-24 22:37:45,647 [INFO] attendance_app: Loaded 1 active face encodings into memory cache.
+2026-07-24 22:37:45,653 [INFO] attendance_app: Starting Student Facial Attendance Server on http://0.0.0.0:5005
+2026-07-24 22:37:45,653 [WARNING] werkzeug:  * Debugger is active!
+2026-07-24 22:37:45,653 [INFO] werkzeug:  * Debugger PIN: 411-269-286
+2026-07-24 22:38:12,488 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:38:12] "GET / HTTP/1.1" 200 -
+2026-07-24 22:38:12,915 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:38:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-24 22:38:12,939 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:38:12] "[36mGET /static/js/camera.js HTTP/1.1[0m" 304 -
+2026-07-24 22:38:12,948 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:38:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-07-24 22:38:13,104 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:38:13] "GET /api/attendance?search=&department=&status= HTTP/1.1" 200 -
+2026-07-24 22:38:13,433 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:38:13] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2026-07-24 22:38:13,754 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:38:13] "GET / HTTP/1.1" 200 -
+2026-07-24 22:38:13,809 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:38:13] "GET / HTTP/1.1" 200 -
+2026-07-24 22:38:14,003 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:38:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-24 22:38:14,153 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:38:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-07-24 22:38:14,159 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:38:14] "[36mGET /static/js/camera.js HTTP/1.1[0m" 304 -
+2026-07-24 22:38:14,175 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:38:14] "GET /api/attendance?search=&department=&status= HTTP/1.1" 200 -
+2026-07-24 22:38:14,488 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:38:14] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2026-07-24 22:38:14,757 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 22:38:14] "GET / HTTP/1.1" 200 -
+2026-07-24 23:30:44,409 [INFO] werkzeug:  * Detected change in 'C:\\Users\\ADMIN\\Documents\\project attendence\\app.py', reloading
+2026-07-24 23:30:45,745 [INFO] werkzeug:  * Restarting with watchdog (windowsapi)
+face_recognition library not found. Falling back to OpenCV AI lighting-invariant face feature engine.
+2026-07-24 23:30:47,215 [INFO] attendance_app: Loaded 1 active face encodings into memory cache.
+2026-07-24 23:30:47,215 [INFO] attendance_app: Starting Student Facial Attendance Server on http://0.0.0.0:5005
+2026-07-24 23:30:47,230 [WARNING] werkzeug:  * Debugger is active!
+2026-07-24 23:30:47,230 [INFO] werkzeug:  * Debugger PIN: 411-269-286
+2026-07-24 23:35:48,453 [INFO] werkzeug:  * Detected change in 'C:\\Users\\ADMIN\\Documents\\project attendence\\ai_engine.py', reloading
+2026-07-24 23:35:49,791 [INFO] werkzeug:  * Restarting with watchdog (windowsapi)
+face_recognition library not found. Falling back to OpenCV AI lighting-invariant face feature engine.
+2026-07-24 23:35:51,407 [INFO] attendance_app: Loaded 1 active face encodings into memory cache.
+2026-07-24 23:35:51,407 [INFO] attendance_app: Starting Student Facial Attendance Server on http://0.0.0.0:5005
+2026-07-24 23:35:51,424 [WARNING] werkzeug:  * Debugger is active!
+2026-07-24 23:35:51,424 [INFO] werkzeug:  * Debugger PIN: 411-269-286
+2026-07-24 23:38:38,156 [INFO] werkzeug:  * Detected change in 'C:\\Users\\ADMIN\\Documents\\project attendence\\models.py', reloading
+2026-07-24 23:38:39,413 [INFO] werkzeug:  * Restarting with watchdog (windowsapi)
+face_recognition library not found. Falling back to OpenCV AI lighting-invariant face feature engine.
+2026-07-24 23:38:40,613 [INFO] attendance_app: Loaded 1 active face encodings into memory cache.
+2026-07-24 23:38:40,621 [INFO] attendance_app: Starting Student Facial Attendance Server on http://0.0.0.0:5005
+2026-07-24 23:38:40,629 [WARNING] werkzeug:  * Debugger is active!
+2026-07-24 23:38:40,632 [INFO] werkzeug:  * Debugger PIN: 411-269-286
+2026-07-24 23:48:17,147 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 23:48:17] "GET / HTTP/1.1" 200 -
+2026-07-24 23:48:17,239 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 23:48:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-24 23:48:17,354 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 23:48:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-07-24 23:48:17,482 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 23:48:17] "[36mGET /static/js/camera.js HTTP/1.1[0m" 304 -
+2026-07-24 23:48:17,822 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 23:48:17] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2026-07-24 23:48:17,828 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 23:48:17] "GET /api/attendance?search=&department=&status= HTTP/1.1" 200 -
+2026-07-24 23:48:18,086 [INFO] werkzeug: 127.0.0.1 - - [24/Jul/2026 23:48:18] "GET / HTTP/1.1" 200 -
+2026-07-24 23:55:48,427 [INFO] werkzeug:  * Detected change in 'C:\\Users\\ADMIN\\Documents\\project attendence\\models.py', reloading
+2026-07-24 23:55:48,427 [INFO] werkzeug:  * Detected change in 'C:\\Users\\ADMIN\\Documents\\project attendence\\models.py', reloading
+2026-07-24 23:55:49,502 [INFO] werkzeug:  * Restarting with watchdog (windowsapi)
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Documents\project attendence\app.py", line 12, in <module>
+    from models import db, User, Student, Attendance, SystemLog
+ImportError: cannot import name 'User' from 'models' (C:\Users\ADMIN\Documents\project attendence\models.py)
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Documents\project attendence\app.py", line 12, in <module>
+    from models import db, User, Student, Attendance, SystemLog
+ImportError: cannot import name 'User' from 'models' (C:\Users\ADMIN\Documents\project attendence\models.py)
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Documents\project attendence\app.py", line 12, in <module>
+    from models import db, User, Student, Attendance, SystemLog
+ImportError: cannot import name 'User' from 'models' (C:\Users\ADMIN\Documents\project attendence\models.py)
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.110:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 411-269-286
+127.0.0.1 - - [24/Jul/2026 23:56:09] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 23:56:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 23:56:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 23:56:18] "GET /static/css/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [24/Jul/2026 23:56:18] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [24/Jul/2026 23:56:18] "GET /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 23:56:18] "GET /api/dashboard/date-guidance?date=2026-07-24&crop=Tomato&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 23:56:18] "GET /api/crop-guide/Tomato?variety=arka_rakshak&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 23:56:18] "GET /api/fertilizers HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 23:56:18] "GET /api/logbook HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 23:56:18] "GET /api/experts?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 23:56:19] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Jul/2026 23:56:22] "GET /api/experts?lat=13.1736035&lng=77.53199 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 23:56:22] "GET /api/dealers?lat=13.1736035&lng=77.53199 HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.110:5000
+Press CTRL+C to quit
+127.0.0.1 - - [25/Jul/2026 08:47:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:47:59] "GET /static/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:47:59] "GET /static/js/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:47:59] "GET /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:47:59] "GET /api/experts?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:47:59] "GET /api/fertilizers HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:47:59] "GET /api/dashboard/date-guidance?date=2026-07-25&crop=Tomato&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:47:59] "GET /api/crop-guide/Tomato?variety=arka_rakshak&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:47:59] "GET /api/logbook HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:48:00] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Jul/2026 08:48:02] "GET /api/experts?lat=13.174561&lng=77.531963 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:48:02] "GET /api/dealers?lat=13.174561&lng=77.531963 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:48:20] "POST /api/auth/otp/send HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:48:27] "POST /api/auth/otp/verify HTTP/1.1" 200 -
+C:\Users\ADMIN\Documents\project attendence\app.py:29: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  return Farmer.query.get(int(user_id))
+127.0.0.1 - - [25/Jul/2026 08:49:13] "POST /api/auth/logout HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:49:37] "POST /api/auth/otp/send HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:49:42] "POST /api/auth/otp/verify HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:50:06] "POST /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:50:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:50:14] "GET /static/css/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 08:50:14] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 08:50:14] "GET /api/dashboard/date-guidance?date=2026-07-25&crop=Tomato&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:50:14] "GET /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:50:14] "GET /api/crop-guide/Tomato?variety=arka_rakshak&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:50:14] "GET /api/fertilizers HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:50:14] "GET /api/logbook HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:50:14] "GET /api/experts?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:50:16] "GET /api/dealers?lat=13.174466&lng=77.532093 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:50:16] "GET /api/experts?lat=13.174466&lng=77.532093 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:50:56] "POST /api/diagnose HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:51:38] "GET /api/dealers?lat=13.174466&lng=77.532093 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:52:43] "GET /api/crop-guide/Tomato?variety=arka_rakshak&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:56:31] "POST /api/auth/logout HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:56:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:56:46] "GET /static/css/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 08:56:46] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 08:56:46] "GET /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:56:46] "GET /api/dashboard/date-guidance?date=2026-07-25&crop=Tomato&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:56:46] "GET /api/crop-guide/Tomato?variety=arka_rakshak&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:56:46] "GET /api/fertilizers HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:56:46] "GET /api/experts?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:56:46] "GET /api/logbook HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:56:47] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Jul/2026 08:56:49] "GET /api/dealers?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:57:03] "POST /api/auth/otp/send HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:57:07] "POST /api/auth/otp/verify HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 08:58:02] "POST /api/auth/logout HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.110:5000
+Press CTRL+C to quit
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.110:5000
+Press CTRL+C to quit
+127.0.0.1 - - [25/Jul/2026 09:55:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 09:55:37] "GET /static/css/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 09:55:37] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 09:55:37] "GET /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 09:55:37] "GET /api/fertilizers HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 09:55:37] "GET /api/crop-guide/Tomato?variety=arka_rakshak&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 09:55:37] "GET /api/dashboard/date-guidance?date=2026-07-25&crop=Tomato&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 09:55:37] "GET /api/logbook HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 09:55:37] "GET /api/experts?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 09:55:38] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Jul/2026 09:55:45] "GET /api/dealers?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.59.30.163:5000
+Press CTRL+C to quit
+127.0.0.1 - - [25/Jul/2026 10:47:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 10:47:43] "GET /static/css/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 10:47:43] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 10:47:46] "GET /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 10:47:46] "GET /api/logbook HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 10:47:46] "GET /api/dashboard/date-guidance?date=2026-07-25&crop=Tomato&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 10:47:46] "GET /api/experts?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 10:47:47] "GET /api/crop-guide/Tomato?variety=arka_rakshak&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 10:47:47] "GET /api/fertilizers HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 10:47:47] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Jul/2026 10:47:54] "GET /api/dealers?lat=13.169345&lng=77.533588 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 10:47:54] "GET /api/experts?lat=13.169345&lng=77.533588 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 10:48:03] "POST /api/auth/otp/send HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 10:48:10] "POST /api/auth/otp/verify HTTP/1.1" 200 -
+C:\Users\ADMIN\Documents\project attendence\app.py:29: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  return Farmer.query.get(int(user_id))
+127.0.0.1 - - [25/Jul/2026 10:58:04] "POST /api/diagnose HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 10:58:27] "GET /api/dealers?lat=13.169345&lng=77.533588 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:31:07] "POST /api/diagnose HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:32:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:32:30] "GET /static/css/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 11:32:30] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 11:32:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:32:38] "GET /static/css/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 11:32:38] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 11:32:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:32:38] "GET /static/css/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 11:32:38] "GET /static/js/app.js HTTP/1.1" 304 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.128.127:5000
+Press CTRL+C to quit
+127.0.0.1 - - [25/Jul/2026 11:49:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:49:40] "GET /static/css/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 11:49:40] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 11:49:40] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Jul/2026 11:50:00] "POST /api/auth/otp/send HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:50:03] "POST /api/auth/otp/verify HTTP/1.1" 200 -
+C:\Users\ADMIN\Documents\project attendence\app.py:29: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  return Farmer.query.get(int(user_id))
+127.0.0.1 - - [25/Jul/2026 11:51:41] "POST /api/diagnose HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:52:10] "GET /api/dealers?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:54:27] "POST /api/diagnose HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:54:39] "GET /api/crop-guide/Tomato?variety=arka_rakshak&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:05] "GET /static/css/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 11:56:05] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 11:56:06] "GET /api/dashboard/date-guidance?date=2026-07-25&crop=Tomato&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:06] "GET /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:06] "GET /api/crop-guide/Tomato?variety=arka_rakshak&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:06] "GET /api/fertilizers HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:06] "GET /api/logbook HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:06] "GET /api/experts?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:08] "POST /api/auth/logout HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:10] "GET /api/dealers?lat=13.169156301492908&lng=77.53430202929871 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:10] "GET /api/experts?lat=13.169156301492908&lng=77.53430202929871 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:23] "GET /static/css/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 11:56:23] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [25/Jul/2026 11:56:23] "GET /api/dashboard/date-guidance?date=2026-07-25&crop=Tomato&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:23] "GET /api/auth/profile HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:23] "GET /api/crop-guide/Tomato?variety=arka_rakshak&sowing_date=2026-06-04 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:23] "GET /api/fertilizers HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:23] "GET /api/logbook HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:23] "GET /api/experts?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:24] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Jul/2026 11:56:31] "GET /api/dealers?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:40] "POST /api/auth/otp/send HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:56:44] "POST /api/auth/otp/verify HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jul/2026 11:57:05] "GET /api/dealers?lat=13.2457&lng=77.7126 HTTP/1.1" 200 -
